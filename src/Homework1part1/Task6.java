@@ -1,6 +1,5 @@
 package Homework1part1;
 
-
 import java.util.Scanner;
 
 /*
@@ -16,7 +15,7 @@ import java.util.Scanner;
 4.349609156548647
  */
 public class Task6 {
-    private static final double MILES_TO_KILOMETERS =  1.60934;
+    private static final double MILES_TO_KILOMETERS = 1.60934;
 
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
