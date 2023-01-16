@@ -19,7 +19,7 @@ public class Task6 {
         int r = console.nextInt();
         int t = console.nextInt();
 
-        double result = c * r * (100d - t) / 100;
+        double result = c * r * (100d - t) / 100;       //int округляет, отбрасывая все точки.
         System.out.println("Доход " + result);
 
     }

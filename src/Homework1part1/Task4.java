@@ -32,3 +32,5 @@ public class Task4 {
         }
     }
 }
+//chas = (int) (count / 3600);
+//minute = (int) ((count % 3600) / 60);
