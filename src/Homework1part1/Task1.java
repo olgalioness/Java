@@ -14,21 +14,20 @@ Math.
  */
 
 
-
 public class Task1 {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            Scanner console = new Scanner(System.in);
-            //System.out.print("Введите радиус: ");
+        Scanner console = new Scanner(System.in);
+        //System.out.print("Введите радиус: ");
 
-            double radius = console.nextDouble();
+        double radius = console.nextDouble();
 
-            if (radius > 0) {
-                if (radius < 100) {
-                    double area = 4.0/3.0 * Math.PI * (Math.pow(radius, 3));
-                    System.out.println(area);
-                }
+        if (radius > 0) {
+            if (radius < 100) {
+                double area = 4.0 / 3.0 * Math.PI * (Math.pow(radius, 3));
+                System.out.println(area);
             }
         }
     }
+}
 
