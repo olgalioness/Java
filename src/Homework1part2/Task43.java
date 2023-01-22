@@ -12,7 +12,7 @@ import java.util.Scanner;
 Ограничение:
 0 <= n <= 23
  */
-public class Task4 {
+public class Task43 {
     public static void main(String[] args) {
 
         Scanner console = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Task4 {
         int n = console.nextInt();
 
         if ((0 <= n && n <= 23)) {
-            System.out.print((n >= 12) ? "Пора" : "Рано");
+            System.out.print((n > 12) ? "Пора" : "Рано");
         }
     }
 }
