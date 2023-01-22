@@ -12,7 +12,7 @@ import java.util.Scanner;
 Ограничение:
 0 <= n <= 23
  */
-public class Task43 {
+public class Task3 {
     public static void main(String[] args) {
 
         Scanner console = new Scanner(System.in);
