@@ -1,23 +1,38 @@
-/*package veek2;
+package week2;
 
 import java.util.Scanner;
+
 /*
     Дано число n.
     Если оно четное и больше либо равно 0, то вывести “Четное больше или равно 0”.
     Если четное и меньше 0, то вывести “Четное меньше 0”.
+
+    Входные данные: -4
+    Выходные данные: Четное меньше 0
+
+    Входные данные: 28
+    Выходные данные: Четное больше или равно 0
  */
-/*
 public class Task2 {
     public static void main(String[] args) {
-        //new Scanner(System.in).var
         Scanner console = new Scanner(System.in);
-        int x = console.nextInt();
+        int n = console.nextInt();
+//        if (n % 2 == 0 && n >= 0) {
+//            System.out.println("Четное больше или равно 0");
+//        }
+//        if (n % 2 == 0 && n < 0) {
+//            System.out.println("Четное меньше 0");
+//        }
 
-        if (n % 2 == 0 ){
-            if
+        if (n % 2 == 0 ) {
+            if (n >= 0) {
+                System.out.println("Четное больше или равно 0");
+            } else {
+                System.out.println("Четное меньше 0");
+            }
+        } else {
+            System.out.println("Вы ввели не правильное число!");
         }
 
-        System.out.println(y);
     }
 }
-*/
