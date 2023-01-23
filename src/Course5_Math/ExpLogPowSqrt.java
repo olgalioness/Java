@@ -1,13 +1,13 @@
 package Course5_Math;
 
-public class Exponential {
+public class ExpLogPowSqrt {
     public static void main(String[] args) {
         //Экспоненциальные методы
         //exp(x)	Возвращает число e, возведенное в степень x(e^x).
         //log(x)	Возвращает натуральный логарифм x (ln(x) = log по основанию e(x)).
         //log10(x)	Возвращает десятичный логарифм x (log по основанию 10(x)).
         //pow(a, b)	Возвращает a, возведенное в степень b (a^b).
-        // sqrt(x)	Возвращает квадратный корень x  для x >=0
+        //sqrt(x)	Возвращает квадратный корень x  для x >=0
 
         System.out.println("1. " + Math.exp(3.5));              // e^3.5 равно 33.11545
         System.out.println("2. " + Math.log(3.5));              //ln(3.5) равно  1.25276
