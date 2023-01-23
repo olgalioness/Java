@@ -17,5 +17,10 @@ public class MinMaxAbsRandom {
         System.out.println("6. " + (int)(Math.random() * 10) );                         //случайное целое число между 0 и 9
         System.out.println("7. " + 50 + (int)(Math.random() * 50));                     //случайное целое число между 50 и 99
 
+        System.out.println("1. " + Math.log(Math.exp(5.5)));                            //5.5
+        System.out.println("2. " + Math.exp(Math.log(5.5)));                            //5.5
+        System.out.println("3. " + Math.asin(Math.sin(Math.PI / 6)));                   //0.5235987755982988
+        System.out.println("4. " + Math.sin(Math.asin(Math.PI / 6)));                   //0.5235987755982988
+
     }
 }
