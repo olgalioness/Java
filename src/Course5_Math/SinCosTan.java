@@ -10,7 +10,7 @@ public class SinCosTan {
         System.out.println("2. " + Math.toRadians(30));                 //0.5236 (эквивалентно π/6) Преобразует геометрический угол из градусов в радианы.
         System.out.println("3. " + Math.sin(0));                        //0.0 Возвращает тригонометрический синус угла в радианах.
         System.out.println("4. " + Math.sin(Math.toRadians(270)));      //-1.0
-        System.out.println("5. " + Math.sin(Math.PI / 6) );             //0.5
+        System.out.println("5. " + Math.sin(Math.PI / 6));              //0.5
         System.out.println("6. " + Math.sin(Math.PI / 2));              //1.0
         System.out.println("7. " + Math.cos(0));                        //1.0 Возвращает тригонометрический косинус угла в радианах.
         System.out.println("8. " + Math.cos(Math.PI / 6));              //0.866
