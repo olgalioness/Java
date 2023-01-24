@@ -10,6 +10,7 @@ public class TypeOfString {
     //toUpperCase()	    Возвращает новую строку со всеми заглавными буквами.
     //toLowerCase()	    Возвращает новую строку со всеми строчными буквами.
     //trim()	        Возвращает новую строку с усеченными с обеих сторон пробелами.
+    //Чтобы избежать ошибок ввода, не используйте ввод данных на основе строчек после ввода на основе лексем. Причины этого будут объяснены в курсе «Объектно-ориентированное Java-программирование».
 
     public static void main(String[] args) {
         String message = "Welcome to Java ";
@@ -35,7 +36,7 @@ public class TypeOfString {
 
         int i = 1;
         int j = 2;
-        System.out.println("i + j равно " + i + j);                 //????????????
+        System.out.println("i + j равно " + i + j);                 //строка + строка 1 + строка 2 //  i + j равно 12
         System.out.println("i + j равно " + (i + j));
 
         System.out.println("Welcome".toLowerCase());

@@ -50,5 +50,12 @@ public class StringDataType {
         System.out.println(j + " равно уникоду для символа " + (char)j);     // 99 равно уникоду для символа c
         System.out.println("Раздел " + '4');                                 //конкратенация строк
 
+        System.out.println('4');
+
+        char x = 'b';
+        System.out.println(++x);
+
+
+
     }
 }
