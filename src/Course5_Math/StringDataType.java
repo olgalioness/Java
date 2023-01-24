@@ -13,7 +13,7 @@ public class StringDataType {
     // \\	Обратный слеш	            \u005C	 92 десятичное значение
     // \"	Двойные кавычки            	\u0022	 34 десятичное значение
     public static void main(String[] args) {
-        char letter = 'A';
+        char letter = 'A';              //char единичный символ
         letter = '\u0041';              // Уникод символа A равен 0041
         System.out.println(letter);     //A
         System.out.println(++letter);   //B ++ следующий или -- предшествующий символ
