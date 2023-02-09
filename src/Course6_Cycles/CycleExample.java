@@ -1,8 +1,9 @@
 package Course6_Cycles;
 
 public class CycleExample {
+
     public static void main(String[] args) {
-        /*for (int n = 1; n < 5; n++) {
+       for (int n = 1; n < 5; n++) {
             int j = 0;
             while (j < n) {
                 System.out.print(j + " ");
@@ -16,8 +17,8 @@ public class CycleExample {
             System.out.println("****");
             k++;
         }
-    }*/
-
+    }
+/*
         int i = 5;
         while (i >= 1) {
             int num = 1;
@@ -27,8 +28,8 @@ public class CycleExample {
             }
             System.out.println();
             i--;
-        }
-        /*
+        }*/
+/*
         int m = 1;
         do {
             int num = 1;
@@ -40,7 +41,7 @@ public class CycleExample {
             m++;
         } while (m <= 5);
     }
-
+*/
         /*
         // отобразить верхнюю половину и центральный ряд
         for (int y = 1; y <= 6; ++y) {
@@ -55,8 +56,8 @@ public class CycleExample {
                 System.out.print("  " + x);
             System.out.println();
         }
-    */
+*/
     }
-}
+
 
 
