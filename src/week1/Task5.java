@@ -1,11 +1,13 @@
 package week1;
 
-import java.util.Scanner;
 /*
 Напишите аналог функции swap, которая меняет значения двух параметров местами без вспомогательной переменной.
  Входные данные: а=7, b=5
  Выходные данные: a=5, b=7
  */
+
+
+import java.util.Scanner;
 
 public class Task5 {
     public static void main(String[] args) {
@@ -23,3 +25,4 @@ public class Task5 {
         System.out.println("a = " + a + " b = " + b);
     }
 }
+//в настройках IDEA находится автоимпорт, или alt + enter
