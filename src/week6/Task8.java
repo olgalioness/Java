@@ -1,4 +1,4 @@
-package Week6;
+package week6;
 
 public class Task8 {
 

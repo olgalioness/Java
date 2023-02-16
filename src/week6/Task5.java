@@ -1,6 +1,4 @@
-package Week6;
-
-import java.util.Scanner;
+package week6;
 
 /*
 На вход подается число N — количество участников соревнования и
