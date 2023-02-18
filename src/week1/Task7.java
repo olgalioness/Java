@@ -15,6 +15,6 @@ public class Task7 {
         int first = number / 10;
         int second = number % 10;
 
-        System.out.println(first + "|" + second);
+        System.out.println(first + " и " + second);
     }
 }
