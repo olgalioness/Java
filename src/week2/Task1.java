@@ -18,18 +18,13 @@ public class Task1 {
         String str;
 
         if (n % 2 == 0) {
-            System.out.println("BOOM!");
-        }
-
-
-        if (n % 2 == 0) {
             str = "Число четное";               //в одну строку лучше всегда фигурные скобки
         } else {
             str = "Число нечетное";
         }
+        System.out.println(str);
 
         String str2 = (n % 2 == 0) ? "Число четное" : "Число нечетное";
-        System.out.println(str);
         System.out.println(str2);
     }
 }

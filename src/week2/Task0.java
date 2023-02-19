@@ -7,19 +7,19 @@ import java.util.Scanner;
     Scanner scanner = new Scanner(System.in);
     int x = scanner.nextInt();
     int y;
-    if (x > 0) {a
-        if (x < 100) {a
-            y = 1;b
+    if (x > 0) {
+        if (x < 100) {
+            y = 1;
         } else {
-            y = 0;b
+            y = 0;
         }
     } else {
-        y = -1;b
+        y = -1;
     }*/
 
 public class Task0 {
     public static void main(String[] args) {
-        //new Scanner(System.in).var
+
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
 

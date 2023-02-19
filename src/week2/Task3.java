@@ -1,9 +1,6 @@
 package week2;
 
 // Дано четырехзначное число. Проверить является ли оно палиндромом.
-
-import java.util.Scanner;
-
 /*
         Входные данные: 1881
         Выходные данные: true
@@ -11,20 +8,23 @@ import java.util.Scanner;
         Входные данные: 5081
         Выходные данные: false
  */
+import java.util.Scanner;
+
+
 public class Task3 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         int n = console.nextInt();
         if (n > 999 && n < 10000) {
-            int end = n % 10;
-            int start = n / 1000;
-            if (end != start) {
+            int end = n % 10;                                   //получчаем последнее число
+            int start = n / 1000;                               //получаем первое число
+            if (end != start) {                                 //сравним эти числа
                 System.out.println("Не палиндром!");
             } else {
-                end = (n % 100) / 10;
-                start = (n / 100) % 10;
+                end = (n % 100) / 10;                           //получаем второе число
+                start = (n / 100) % 10;                         //получаем третье число
 
-                if (end != start) {
+                if (end != start) {                             //сравниваем второе и третье число
                     System.out.println("Не палиндром!");
                 } else {
                     System.out.println("Палиндром!");

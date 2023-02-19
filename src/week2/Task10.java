@@ -16,6 +16,6 @@ public class Task10 {
         String str = console.nextLine();
         String pattern = console.nextLine();
 
-        System.out.println(str.replace(pattern, pattern.toUpperCase()));
+        System.out.println(str.replace(pattern, pattern.toUpperCase()));            //первый аргумент что ищется,второй на что нужно заменить
     }
 }

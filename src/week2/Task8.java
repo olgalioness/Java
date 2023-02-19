@@ -13,7 +13,7 @@ import java.util.Scanner;
         World
  */
 public class Task8 {
-    //          public static final String FIND_LOCATION_BY_NAME =
+    //          public static final String FIND_LOCATION_BY_NAME =                              //запрос к бд в sqw если убрать \n то запрос склеится
     //        "select o.object_id from db_objects o, db_object_type_parents notp\n" +
     //               "where notp.parent_id = 8500556741166916601650 /* Location */\n" +
     //                "and o.object_type_id = notp.object_type_id\n" +

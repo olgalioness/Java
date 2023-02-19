@@ -21,7 +21,7 @@ public class Task5 {
 
 //        //Проверить утверждение, что хотя бы одно из них нечетное.
 //        if (a % 2 != 0 || b % 2 != 0) {                               //утверждение может быть упрощено
-//            System.out.println(true);                                 //при тернарном операторе проверяется первая часть и break
+//            System.out.println(true);                                 //при тернарном операторе |  проверяется первая часть и break
 //        } else {
 //            System.out.println(false);
 //        }
@@ -34,7 +34,7 @@ public class Task5 {
             System.out.println(false);
         }
 
-        if (aIsOdd ^ bIsOdd) {
+        if (aIsOdd ^ bIsOdd) {                              //оператор XOR исключающее или
             System.out.println(true);
         } else {
             System.out.println(false);

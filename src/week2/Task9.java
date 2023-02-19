@@ -15,7 +15,7 @@ public class Task9 {
         Scanner console = new Scanner(System.in);
         char c = console.next().charAt(0);
 
-        if (c >= 'a' && c <= 'z') {
+        if (c >= 'a' && c <= 'z') {                             //проверить на заглавные буквы
             System.out.println((char) (c + ('A' - 'a')));
         } else {
             System.out.println((char) (c - ('A' - 'a')));

@@ -20,13 +20,12 @@ public class Task4 {
         /*
         switch (roomType) {
 
-            case 1://case- условие
-                //case 1 - > //опускается break в jdk 19
+            case 1:                                                     //case- условие
                 System.out.println("VIP " + 12500 + " руб.");
                 break;
-            case 2:         //ctrl+d продублировать
+            case 2:                                                     //ctrl+d продублировать
                 System.out.println("Premium " + 9000 + " руб.");
-                break;
+                break;                                                  //без брейка выполнится текущее и последующие
             case 3:
                 System.out.println("Standard " + 6300 + " руб.");
                 break;
@@ -36,7 +35,7 @@ public class Task4 {
             default:
                 System.out.println("Неизвестный тип номера! Пожалйста введите допустимое значение");
                */
-            switch (roomType) {
+            switch (roomType) {                                                      //патер мачинга с версии java 17
                 case 1 -> System.out.println("VIP " + 12500 + rubleSignature);
                 case 2 -> System.out.println("Premium " + 9000 + rubleSignature);
                 case 3 -> System.out.println("Comfort " + 6300 + rubleSignature);

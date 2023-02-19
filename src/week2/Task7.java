@@ -13,6 +13,8 @@ import java.util.Scanner;
 public class Task7 {
     public static void main(String[] args) {
 
+        // while (true) {                                       //бесконечный цикл
+
         Scanner console = new Scanner(System.in);
         int a = console.nextInt();
         int b = console.nextInt();
