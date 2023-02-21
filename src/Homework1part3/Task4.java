@@ -31,11 +31,11 @@ public class Task4 {
             System.out.println(first);
             System.out.println(second);
             System.out.println(third);
-        } else if (1000 <= n && n <= 9999){
+        } else if (1000 <= n && n <= 9999) {
             first = n / 1000;
             second = (n % 1000) / 100;
-            third = ((n % 1000) % 100) / 10 ;
-            fourth = ((n % 1000) % 100)  % 10;
+            third = ((n % 1000) % 100) / 10;
+            fourth = ((n % 1000) % 100) % 10;
             System.out.println(first);
             System.out.println(second);
             System.out.println(third);

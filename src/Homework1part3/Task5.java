@@ -1,4 +1,6 @@
 package Homework1part3;
+
+import java.util.Scanner;
 /*
 Даны положительные натуральные числа m и n.
 Найти остаток от деления m на n, не выполняя операцию взятия остатка.
@@ -9,7 +11,7 @@ package Homework1part3;
 38 : 4 = 9          9 * 4 = 36      38 - 36 = 2 (остаток от деления)
 38 - (38 : 4) * 4 = остаток от деления
  */
-import java.util.Scanner;
+
 
 public class Task5 {
     public static void main(String[] args) {

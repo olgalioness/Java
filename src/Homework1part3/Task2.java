@@ -1,6 +1,7 @@
 package Homework1part3;
 
 import java.util.Scanner;
+
 /*
 2. Сумма чисел
 На вход подается два положительных числа m и n.

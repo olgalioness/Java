@@ -1,4 +1,7 @@
 package Homework1part3;
+
+import java.util.Scanner;
+
 /*
 Дана строка s.
 Вычислить количество символов в ней, не считая пробелов (необходимо использовать цикл).
@@ -6,8 +9,6 @@ package Homework1part3;
 Ограничение:
 0 < s.length() < 1000
  */
-import java.util.Scanner;
-
 public class Task7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
