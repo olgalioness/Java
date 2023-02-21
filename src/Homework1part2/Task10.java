@@ -1,12 +1,12 @@
 package Homework1part2;
+
+import java.util.Scanner;
 /*
 "А логарифмическое?" - не унималась дочь.
 
 Ограничение:
 -500 < n < 500
  */
-import java.util.Scanner;
-
 public class Task10 {
     public static void main(String[] args) {
 

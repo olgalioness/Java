@@ -1,4 +1,6 @@
 package Homework1part2;
+
+import java.util.Scanner;
 /*
 После вкусного обеда Петя принимается за подсчет дней до выходных.
 Календаря под рукой не оказалось, а если спросить у коллеги Феди, то тот называет только порядковый номер дня недели, что не очень удобно.
@@ -8,9 +10,6 @@ package Homework1part2;
 Ограничение:
 1 <= n <= 7
  */
-
-import java.util.Scanner;
-
 public class Task4 {
     public static void main(String[] args) {
 

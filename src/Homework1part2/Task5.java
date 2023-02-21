@@ -1,4 +1,6 @@
 package Homework1part2;
+
+import java.util.Scanner;
 /*
 5.Дома дочери Пети опять нужна помощь с математикой! В этот раз ей нужно проверить, имеет ли предложенное квадратное уравнение решение или нет.
 
@@ -8,10 +10,6 @@ package Homework1part2;
 -100 < a, b, c < 100
 
  */
-
-
-import java.util.Scanner;
-
 public class Task5 {
     public static void main(String[] args) {
         double x1, x2;
