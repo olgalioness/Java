@@ -18,14 +18,14 @@ public class Task9 {
     public static void main(String[] args) {
         //case1:
         Scanner console = new Scanner(System.in);
-//        int res = 0;
-//        while (true) {
-//            if (console.nextInt() < 0) {
-//                res ++;
-//            } else break;
-//        }
-//        System.out.println(res);
-
+        int res = 0;
+        while (true) {
+            if (console.nextInt() < 0) {
+                res++;
+            } else break;
+        }
+        System.out.println(res);
+/*
 
         //case2:
         int count = 0;
@@ -35,4 +35,7 @@ public class Task9 {
         System.out.println("result: " + count);
     }
 
+}
+*/
+    }
 }

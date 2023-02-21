@@ -26,6 +26,5 @@ public class Task1 {
         for (int i = 1; i <= n; i++, res2 *= i) {
             System.out.println(res2);
         }
-
     }
 }

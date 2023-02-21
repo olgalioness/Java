@@ -28,7 +28,7 @@ public class Task6 {
 
         if (n == 1) {
             System.out.println(fib1);
-            return;
+            return;                                     //выкидывает из метода main, по-этому программа завершается
         }
 
         int fibResult = 0;
