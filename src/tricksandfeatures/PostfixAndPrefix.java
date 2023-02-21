@@ -6,7 +6,7 @@ public class PostfixAndPrefix {
         int x =2, y =4, z = 1;
 
         System.out.println("Start");
-        System.out.println(++x - y++ + ++z);  //2 - 1 = 1
+        System.out.println(++x - y++ + ++z);                //y плюсует единицу но негде не используется
         System.out.println();
 
         int a = 5, b = 7;
