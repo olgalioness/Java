@@ -1,7 +1,5 @@
 package week5;
 
-import java.util.Scanner;
-
 /*
  На вход подается число N — длина массива.
  Затем передается отсортированный по возрастанию массив целых различных чисел из N элементов.
@@ -18,8 +16,19 @@ import java.util.Scanner;
 1 4
 2 3
  */
+/*
 public class Task5 {
     public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        int n = console.nextInt();
+        int[] arr = new int[n];                                     //по умолчанию null заполняется
+        boolean flag = false;                                       //по умолчанию false
+
+
+
+
+        //сравнить с каждым элементов, одиц цикл отвечает за один
+        /*
         Scanner console = new Scanner(System.in);
         int n = console.nextInt();
         int[] arr = new int[n];
@@ -44,4 +53,4 @@ public class Task5 {
             System.out.println(-1);
         }
     }
-}
+}*/
