@@ -1,6 +1,7 @@
 package week5;
 
 import java.util.Scanner;
+
 /*
  На вход подается число N — длина массива.
  Затем передается массив целых чисел длины N.
@@ -16,19 +17,20 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
-        int n = console.nextInt();
-        int[] arr = new int[n];
 
-        for (int i = 0; i< n; i++){
-            arr[i] = console.nextInt();         //считали массив
+        int n = console.nextInt();                           //считали длинну массива, получили размер массива
+        //при инициализации массива, нельзя изменять длину массива
 
+        int[] arr = new int[n];                             //записали длинну массива
+        for (int i = 0; i < n; i++) {                        //заполнили массив входными данными
+            arr[i] = console.nextInt();
         }
-        boolean flag = false;               //нет четных элементов
+        boolean flag = false;                               //нет четных элементов массива, вывести -1
 
-        for (int i=0; i<n; i++){            //если элемент четный проверили и вывели в консоль
-            if(arr[i] % 2 == 0){
+        for (int i = 0; i < n; i++) {                      //пройтись по эелментам массива проверить и вывести
+            if (arr[i] % 2 == 0) {                         //если элемент делится без остатка то выводим
                 System.out.println("Элемент: " + arr[i]);
-                flag = true;
+                flag = true;                               //сбросили флаг
             }
         }
         if (!flag) {

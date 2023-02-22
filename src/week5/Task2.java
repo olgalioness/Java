@@ -22,16 +22,14 @@ public class Task2 {
         }
        for (int i = 0; i < n; i++) {
            if (i % 2 == 0) {
-               System.out.println("i = " + i + " элемент = " + arr[i]); //если индекс массива четный выводим массив
+               System.out.println("i = " + i + " элемент = " + arr[i]);             //если индекс массива четный выводим массив
            }
-      //      for (int i = 0; i<n; i = i +2){
+      //      for (int i = 0; i<n; i = i + 2){                                      //проходим по четным элементам массива
        //         System.out.println("i = " + i + " элемент = " + arr[i]);
         //    }
         }
     }
 }
-//for (int i = 0; i < n; i = i + 2) {
-//            System.out.println(arr[i] + " ");
-//        }
+
 
 

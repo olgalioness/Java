@@ -11,7 +11,7 @@ public class DemoArrayTask {
         numbers[2] = 234;
         numbers[3] = 2;
 
-        strings[1] = "QWERTY";
+       // strings[1] = "QWERTY";
 
         for (int i = 0; i < 4; i++) {
             System.out.println(numbers[i]);
