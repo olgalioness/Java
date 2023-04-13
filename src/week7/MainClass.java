@@ -1,12 +1,9 @@
 package week7;
 
-import week7.task1.Bulb;
-import week7.task3.Robot;
 import week7.task7.Account;
 
 public class MainClass {
     public static void main(String[] args) {
-
         //Task 1
 //        Bulb lamp; //обьявление
 //        Bulb lamp2; //обьявление
