@@ -28,7 +28,8 @@ public class FileReaderAndWriter {
         try (scanner; writer){                                                                              //отработал авто клоуз интерфейс, try с ресурсами
             while (scanner.hasNext()){
                 writer.write(scanner.nextLine().toUpperCase() + "\n");                                  //если у сканера что-то еще на вход и органиовывать считывание и запись на вход. локаль - выбор языка
-                //writer.write(scanner.nextLine().toUpperCase(Locale.US) + "\n");
+                //writer.write(scanner.nextLine().toUpperCase(Locale.US) + "\n");                           //ограниченная локаль
+                //writer.write(scanner.nextLine().toUpperCase(Locale.getDefault()) + "\n");
             }
         }
     }

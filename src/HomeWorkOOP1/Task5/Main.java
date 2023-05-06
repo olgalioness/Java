@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Введите число n, 0 < n < 100");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        if (n <= 100 && n >= 0) {
+        if (n >= 100 || n <= 0) {
             throw new IllegalArgumentException("Неверный ввод");
         }
         return n;
