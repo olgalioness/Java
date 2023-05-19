@@ -1,4 +1,4 @@
-package week1Exception;
+package week1_OOP_Exception;
 
 public class SampleExample3 {
     /*Работа с Multiple Exceptio

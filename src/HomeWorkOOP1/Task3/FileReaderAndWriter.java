@@ -15,7 +15,7 @@ import java.util.Scanner;                                               //дин
 public class FileReaderAndWriter {
     private static final String PKG_DIRECTORY = "src/HomeWorkOOP1/Task3/";                  //путь на директорию с рута-root
     private static final String OUTPUT_FILE_NAME = "output.txt";                            //константа, указывающая на файл
-    private static final String INPUT_FILE_NAME = "input.txt";                              //константа, указывающая на файл input
+    private static final String INPUT_FILE_NAME = "week1_OOP_Exception/Task1/input.txt";                              //константа, указывающая на файл input
 
     public static void main(String[] args) throws IOException {                            //метод запускающий приложение
         readAndWrite();

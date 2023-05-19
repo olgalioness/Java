@@ -1,4 +1,4 @@
-package week1Exception;
+package week1_OOP_Exception;
 
 public class Sample5 {
     public static void main(String[] args) throws MyMathException {             //добавили в сигнатуру метода
@@ -11,14 +11,14 @@ public class Sample5 {
         try {
             return a / b;
         } catch (ArithmeticException e) {                                       //объявляли переменную
-            System.err.println("Возникло - ArithmeticException");
-            //throw new MyMathException(e);               //новое исключение прокинули но не обработали
+            System.err.println("Возникло - ArithmeticException");       //поймали исключение и вывели
+            //throw new MyMathException(e);                             //новое исключение прокинули но не обработали
             throw new MyMathException("Произошло деление на 0", e);     //перепаковали экспепшен поймали сцепление      не потеряли  а запокавали
         } finally {
             System.out.println("Hello from finally");
         }
     }
 }
-//ловили один опрокидывали другой
+//подмена иисключеий - ловили(люработка) один опрокидывали другой
 //не произошло сцепление, произошла подмена исключения
 

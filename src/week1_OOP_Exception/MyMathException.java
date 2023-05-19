@@ -1,19 +1,19 @@
-package week1Exception;
+package week1_OOP_Exception;
 
-public class MyMathException2 extends Exception{                 //checked унаследован от класа Throwable и есть конструктор со стрингом
+public class MyMathException extends Exception{                 //checked унаследован от класа Throwable и есть конструктор со стрингом
     //extends Arifmetic exceprion unchecked
 
-    public MyMathException2(){
+    public MyMathException(){
         //дефолтное сообщение которое не будет упирать на super, передаем сообщение об ошибки, если она одна и таже
         //super("Произошло деление на 0")
     }
-    public MyMathException2(String message){                 //просто принимал стринг и вызывал конструктор родительского класа
+    public MyMathException(String message){                 //просто принимал стринг и вызывал конструктор родительского класа
         super(message);                                     //можно перепаковывать экспепшины  друг друга у конструтора фробл есть котруктор который принимает фробл
     }
     // public MyMathException (Throwable throwable){           //
    //    super (throwable);
     //}
-    public MyMathException2(String message, Throwable throwable){           //
+    public MyMathException (String message, Throwable throwable){           //
         super (throwable);
     }
 }

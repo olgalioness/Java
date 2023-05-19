@@ -1,4 +1,4 @@
-package week1Exception.tryWithResourceExample;
+package week1_OOP_Exception.tryWithResourceExample;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package week1Exception;
+package week1_OOP_Exception;
 
 public class Sample6 {
     public static void main(String[] args) throws MyMathException {             //добавили в сигнатуру метода
