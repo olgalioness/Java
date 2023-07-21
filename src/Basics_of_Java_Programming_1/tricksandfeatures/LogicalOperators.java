@@ -1,4 +1,4 @@
-package tricksandfeatures;
+package Basics_of_Java_Programming_1.tricksandfeatures;
 
 //Дано:   a = true, b = true, c = false. Какой результат будет у этого выражения: (a | b && c) ? (Пожалуйста не пользуйтесь IDE)
 public class LogicalOperators {

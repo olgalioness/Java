@@ -1,4 +1,4 @@
-package tricksandfeatures;
+package Basics_of_Java_Programming_1.tricksandfeatures;
 
 //Дано:   x = 2, y = 4, z = 1. Какой результат будет у этого выражения: (++x - y++ + ++z) ? (Пожалуйста не пользуйтесь IDE)
 public class PostfixAndPrefix {
