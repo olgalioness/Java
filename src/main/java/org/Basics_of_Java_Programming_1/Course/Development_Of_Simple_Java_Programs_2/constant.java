@@ -1,7 +1,5 @@
 package org.Basics_of_Java_Programming_1.Course.Development_Of_Simple_Java_Programs_2;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class constant {

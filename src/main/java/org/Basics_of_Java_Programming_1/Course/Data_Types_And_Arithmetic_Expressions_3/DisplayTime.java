@@ -1,8 +1,9 @@
-package org.Basics_of_Java_Programming_2.Course.Data_Types_And_Arithmetic_Expressions_3;
+package org.Basics_of_Java_Programming_1.Course.Data_Types_And_Arithmetic_Expressions_3;
 
 import java.util.Scanner;
 
 public class DisplayTime {
+
     public static void main(String[] args) {
         int seconds, minutes, remainingSeconds;
 
