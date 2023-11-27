@@ -1,22 +1,27 @@
 package org.Basics_of_Java_Programming_1.Course.Development_Of_Simple_Java_Programs_2;
 
-import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.util.Date;
 
 public class WeeksDevelopment {
     public static void main(String[] args) {
-        int number, weeks, days, remainingSeconds;
 
-        Scanner input = new Scanner(System.in);
+        Date date1 = new Date();
+        Date date2 = new Date();
 
-        // Получить общее время в секундах
-        System.out.print("Введите какое сегодня число");
-        number = input.nextInt();
+        long daysBetween = calculateDaysBetween(date1, date2);
+        System.out.println("Days between: " + daysBetween);
+    }
 
-        System.out.print("Введите день недели: ПН, ВТ, СР, ЧТ, ПТ, СБ, ВС");
-        weeks = input.nextInt();
+    public static long calculateDaysBetween(Date date1, Date date2) {
+        LocalDate localDate1 = date1.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        LocalDate localDate2 = date2.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        return java.time.temporal.ChronoUnit.DAYS.between(localDate1, localDate2);
+    }
+}
 
-        System.out.print("Сколько дней до корпоратива?");
-        days = input.nextInt();
+
         /*
 Недели День	через 10 дней			в недели 7 дн		остаток от деления
 ПН	1	+10		=11		%7			=4	ЧТ
@@ -28,6 +33,3 @@ public class WeeksDevelopment {
 ВС	7	+10		=17		%7			=3	СР
 
          */
-
-    }
-}

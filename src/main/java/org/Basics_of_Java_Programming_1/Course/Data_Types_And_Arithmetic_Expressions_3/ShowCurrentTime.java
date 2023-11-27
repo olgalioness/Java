@@ -1,5 +1,5 @@
 package org.Basics_of_Java_Programming_1.Course.Data_Types_And_Arithmetic_Expressions_3;
-
+/*программа отображает текущее время для региона Москвы. */
 public class ShowCurrentTime {
     public static void main(String[] args) {
         final int MILLISECONDS_PER_SECOND = 1000, SECONDS_PER_MINUTE = 60,

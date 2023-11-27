@@ -4,17 +4,19 @@ public class MathematicalCalculations {
     public static void main(String[] args) {
         //возведение в степень
         System.out.println(Math.pow(2, 3)); //возведение в степень
-        System.out.println(Math.pow(4, 0.5));
+        System.out.println(Math.pow(4, 0.5));   //возвращает тип double
         System.out.println(Math.pow(2.5, 2));
         System.out.println(Math.pow(2.5, -2));
 
+        System.out.println("%");
         System.out.println(56 % 6);     //остаток от деления
         System.out.println(78 % -4);
         System.out.println(-34 % 5);
-        System.out.println(-34 % -5);
+        System.out.println(-34 % -5);     //отрицательный остаток от деления    -4 + -30 = - 34
         System.out.println(5 % 1);      //can be replaced with 0
         System.out.println(1 % 5);
 
+        System.out.println("()");
         System.out.println(2 * (5 / 2 + 5 / 2));
         System.out.println(2 * 5 / 2 + 2 * 5 / 2);
         System.out.println(2 * (5 / 2));

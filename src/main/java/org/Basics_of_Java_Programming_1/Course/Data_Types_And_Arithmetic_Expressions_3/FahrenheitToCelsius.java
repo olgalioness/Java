@@ -1,5 +1,5 @@
 package org.Basics_of_Java_Programming_1.Course.Data_Types_And_Arithmetic_Expressions_3;
-
+/*Программа преобразует температуру из градусов по шкале Фаренгейта в градусы по шкале Цельсия*/
 import java.util.Scanner;
 
 public class FahrenheitToCelsius {

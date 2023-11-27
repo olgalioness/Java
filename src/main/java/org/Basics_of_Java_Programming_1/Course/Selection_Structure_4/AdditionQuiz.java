@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class AdditionQuiz {
     public static void main(String[] args) {
+
         int number1, number2, answer;
 
         Scanner input = new Scanner(System.in);
@@ -23,3 +24,4 @@ public class AdditionQuiz {
                         (number1 + number2 == answer));
     }
 }
+

@@ -2,7 +2,7 @@ package org.Basics_of_Java_Programming_1.Course.Data_Types_And_Arithmetic_Expres
 
 import java.util.Scanner;
 
-/* Отобразить среднее геометрическое трех чисел*/
+/* Отобразить среднее геометрическое трех вещественных  чисел*/
 
 public class CubicMean {
 

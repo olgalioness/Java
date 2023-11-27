@@ -1,5 +1,5 @@
 package org.Basics_of_Java_Programming_1.Course.Data_Types_And_Arithmetic_Expressions_3;
-
+/*Напишите программу, которая моделирует работу банкомата по выдаче введенной суммы денег наименьшим количеством рублевых купюр.*/
 import java.util.Scanner;
 
 public class ComputeExchange {
